@@ -1,7 +1,7 @@
-### KUMPULAN TUGAS STRUKTUR DATA 
+# KUMPULAN TUGAS STRUKTUR DATA 
 
-## Text Editor
+### Text Editor
 * CLion IDE
 
-#Ki Ageng Satria Pamungkas
+###Ki Ageng Satria Pamungkas
 * Tugas 1, 28 Januari 2017
