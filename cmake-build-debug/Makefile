@@ -123,32 +123,32 @@ KuliahSTD/fast:
 	$(MAKE) -f CMakeFiles/KuliahSTD.dir/build.make CMakeFiles/KuliahSTD.dir/build
 .PHONY : KuliahSTD/fast
 
-main.o: main.cpp.o
+tugas1.o: tugas1.cpp.o
 
-.PHONY : main.o
+.PHONY : tugas1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/KuliahSTD.dir/build.make CMakeFiles/KuliahSTD.dir/main.cpp.o
-.PHONY : main.cpp.o
+tugas1.cpp.o:
+	$(MAKE) -f CMakeFiles/KuliahSTD.dir/build.make CMakeFiles/KuliahSTD.dir/tugas1.cpp.o
+.PHONY : tugas1.cpp.o
 
-main.i: main.cpp.i
+tugas1.i: tugas1.cpp.i
 
-.PHONY : main.i
+.PHONY : tugas1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/KuliahSTD.dir/build.make CMakeFiles/KuliahSTD.dir/main.cpp.i
-.PHONY : main.cpp.i
+tugas1.cpp.i:
+	$(MAKE) -f CMakeFiles/KuliahSTD.dir/build.make CMakeFiles/KuliahSTD.dir/tugas1.cpp.i
+.PHONY : tugas1.cpp.i
 
-main.s: main.cpp.s
+tugas1.s: tugas1.cpp.s
 
-.PHONY : main.s
+.PHONY : tugas1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/KuliahSTD.dir/build.make CMakeFiles/KuliahSTD.dir/main.cpp.s
-.PHONY : main.cpp.s
+tugas1.cpp.s:
+	$(MAKE) -f CMakeFiles/KuliahSTD.dir/build.make CMakeFiles/KuliahSTD.dir/tugas1.cpp.s
+.PHONY : tugas1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... KuliahSTD"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... tugas1.o"
+	@echo "... tugas1.i"
+	@echo "... tugas1.s"
 .PHONY : help
 
 

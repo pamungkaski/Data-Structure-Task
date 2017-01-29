@@ -23,20 +23,51 @@ void quickSort(int ptab[], int &pPan){
         };
     }
 };
+void rankSort(int pTab[],int pRank[]){
+    int ind=0;
+    int max = 0;
+    for (int i = 1; i<10; i++){
+        if(pTab[i]>pTab[max]) max = i;
+    };
+    pRank[ind]=max;
+    for (ind = 1; ind<10; ind++ ) {
+        max =0;
+        for (int i = 1; i < 10; i++) {
+            if ((pTab[i] > pTab[max]) and ( pTab[i]<pTab[(pRank[ind-1])])){
+                max = i;
+            };
+        };
+        pRank[ind] = max;
+    };
+
+}
 class IntArray{
 public:
     int length = 9;
-    int tabInt[10]={17,11,18,121,114,112,117,123,15,129};
-    void sort(){
+    int tabInt[10]={17,11,18,121,114,112,117,123,15,129};;
+    int tabRank[10];
+    void sort1(){
         quickSort(tabInt,length);
+    };
+    void sort2(){
+        rankSort(tabInt,tabRank);
     };
 
 };
 int main() {
     IntArray Table1;
-    Table1.sort();
+    IntArray Table2;
+    IntArray Table3;
+    Table1.sort1();
+    Table2.sort2();
+    std::cout << "Quick Sort"<< std::endl;
     for ( int j = 0; j < 10; j++ ) {
         std::cout << Table1.tabInt[j]<< std::endl;
-    }
+    };
+
+    std::cout << "Sort by Rank"<< std::endl;
+    for ( int j = 0; j < 10; j++ ) {
+        std::cout << Table2.tabInt[Table2.tabRank[j]]<< std::endl;
+    };
     return 0;
 }
