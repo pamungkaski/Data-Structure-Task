@@ -74,21 +74,21 @@ void linSort(int pTab[],int pLin[],int &aWal){
 
 }
 class IntArray{
-public:
-    int length = 9;
-    int tabInt[10]={17,11,18,121,114,112,117,123,15,129};;
-    int tabRank[10];
-    int tabLin[10];
-    int first;
-    void sort1(){
-        quickSort(tabInt,length);
-    };
-    void sort2(){
-        rankSort(tabInt,tabRank);
-    };
-    void sort3(){
-        linSort(tabInt,tabLin,first);
-    };
+    public:
+        int length = 9;
+        int tabInt[10]={17,11,18,121,114,112,117,123,15,129};;
+        int tabRank[10];
+        int tabLin[10];
+        int first;
+        void sort1(){
+            quickSort(tabInt,length);
+        };
+        void sort2(){
+            rankSort(tabInt,tabRank);
+        };
+        void sort3(){
+            linSort(tabInt,tabLin,first);
+        };
 };
 int main() {
     IntArray Table1;
