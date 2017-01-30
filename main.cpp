@@ -1,5 +1,5 @@
 #include <iostream>
-#include "tugas1.cpp"
+#include "task1.cpp"
 void tugas1(){
     IntArray Table1;
     IntArray Table2;

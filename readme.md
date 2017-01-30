@@ -1,10 +1,15 @@
-# KUMPULAN TUGAS STRUKTUR DATA 
+# Data Structure Task Repository 
 
 ### Text Editor
 * CLion IDE
 
 ###Ki Ageng Satria Pamungkas
-* Tugas 1, 28 Januari 2017 
+* Task 1, 28 January 2017 
 
-        /tugas1.cpp <-- Class file
+        /task1.cpp <-- Class file
         /main.cpp <-- Main controller
+
+## How To Use
+1. Make a C++ project
+2. Clone This Repository
+3. Run
