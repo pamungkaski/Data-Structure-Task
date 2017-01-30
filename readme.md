@@ -6,4 +6,5 @@
 ###Ki Ageng Satria Pamungkas
 * Tugas 1, 28 Januari 2017 
 
-        /tugas1.cpp
+        /tugas1.cpp <-- Class file
+        /main.cpp <-- Main controller

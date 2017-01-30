@@ -1,6 +1,6 @@
 #include <iostream>
 #include "tugas1.cpp"
-int main() {
+void tugas1(){
     IntArray Table1;
     IntArray Table2;
     IntArray Table3;
@@ -23,6 +23,16 @@ int main() {
     for ( int j = 1; j < 10; j++ ) {
         index = Table3.tabLin[index];
         std::cout << Table3.tabInt[index]<< std::endl;
+    };
+};
+int main() {
+    char input;
+    std::cout << "Tugas Inteface" << std::endl;
+    std::cout << "1. Tugas 1"<< std::endl;
+    std::cout << "Choose: " ;
+    std::cin >> input;
+    switch(input){
+        case '1': tugas1();
     };
     return 0;
 }
