@@ -1,4 +1,6 @@
-#include <iostream>
+//
+// Created by Ki Ageng Satria Pamungkas on 1/30/17.
+//
 void swap(int &px, int &py){
     int temp = px;
     px = py;
@@ -74,45 +76,19 @@ void linSort(int pTab[],int pLin[],int &aWal){
 
 }
 class IntArray{
-    public:
-        int length = 9;
-        int tabInt[10]={17,11,18,121,114,112,117,123,15,129};;
-        int tabRank[10];
-        int tabLin[10];
-        int first;
-        void sort1(){
-            quickSort(tabInt,length);
-        };
-        void sort2(){
-            rankSort(tabInt,tabRank);
-        };
-        void sort3(){
-            linSort(tabInt,tabLin,first);
-        };
+public:
+    int length = 9;
+    int tabInt[10]={17,11,18,121,114,112,117,123,15,129};;
+    int tabRank[10];
+    int tabLin[10];
+    int first;
+    void sort1(){
+        quickSort(tabInt,length);
+    };
+    void sort2(){
+        rankSort(tabInt,tabRank);
+    };
+    void sort3(){
+        linSort(tabInt,tabLin,first);
+    };
 };
-int main() {
-    IntArray Table1;
-    IntArray Table2;
-    IntArray Table3;
-    Table1.sort1();
-    Table2.sort2();
-    Table3.sort3();
-    std::cout << "Quick Sort"<< std::endl;
-    for ( int j = 0; j < 10; j++ ) {
-        std::cout << Table1.tabInt[j]<< std::endl;
-    };
-
-    std::cout << "Sort by Rank"<< std::endl;
-    for ( int j = 0; j < 10; j++ ) {
-        std::cout << Table2.tabInt[Table2.tabRank[j]]<< std::endl;
-    };
-
-    std::cout << "Sort by Linked"<< std::endl;
-    std::cout << Table3.tabInt[Table3.first] <<std::endl;
-    int index = Table3.first;
-    for ( int j = 1; j < 10; j++ ) {
-        index = Table3.tabLin[index];
-        std::cout << Table3.tabInt[index]<< std::endl;
-    };
-    return 0;
-}

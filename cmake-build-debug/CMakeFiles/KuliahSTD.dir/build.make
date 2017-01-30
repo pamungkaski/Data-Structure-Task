@@ -57,38 +57,38 @@ include CMakeFiles/KuliahSTD.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/KuliahSTD.dir/flags.make
 
-CMakeFiles/KuliahSTD.dir/tugas1.cpp.o: CMakeFiles/KuliahSTD.dir/flags.make
-CMakeFiles/KuliahSTD.dir/tugas1.cpp.o: ../tugas1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/iampamungkas/CLionProjects/KuliahSTD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/KuliahSTD.dir/tugas1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KuliahSTD.dir/tugas1.cpp.o -c /Users/iampamungkas/CLionProjects/KuliahSTD/tugas1.cpp
+CMakeFiles/KuliahSTD.dir/main.cpp.o: CMakeFiles/KuliahSTD.dir/flags.make
+CMakeFiles/KuliahSTD.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/iampamungkas/CLionProjects/KuliahSTD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/KuliahSTD.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KuliahSTD.dir/main.cpp.o -c /Users/iampamungkas/CLionProjects/KuliahSTD/main.cpp
 
-CMakeFiles/KuliahSTD.dir/tugas1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KuliahSTD.dir/tugas1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iampamungkas/CLionProjects/KuliahSTD/tugas1.cpp > CMakeFiles/KuliahSTD.dir/tugas1.cpp.i
+CMakeFiles/KuliahSTD.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KuliahSTD.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iampamungkas/CLionProjects/KuliahSTD/main.cpp > CMakeFiles/KuliahSTD.dir/main.cpp.i
 
-CMakeFiles/KuliahSTD.dir/tugas1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KuliahSTD.dir/tugas1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iampamungkas/CLionProjects/KuliahSTD/tugas1.cpp -o CMakeFiles/KuliahSTD.dir/tugas1.cpp.s
+CMakeFiles/KuliahSTD.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KuliahSTD.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iampamungkas/CLionProjects/KuliahSTD/main.cpp -o CMakeFiles/KuliahSTD.dir/main.cpp.s
 
-CMakeFiles/KuliahSTD.dir/tugas1.cpp.o.requires:
+CMakeFiles/KuliahSTD.dir/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/KuliahSTD.dir/tugas1.cpp.o.requires
+.PHONY : CMakeFiles/KuliahSTD.dir/main.cpp.o.requires
 
-CMakeFiles/KuliahSTD.dir/tugas1.cpp.o.provides: CMakeFiles/KuliahSTD.dir/tugas1.cpp.o.requires
-	$(MAKE) -f CMakeFiles/KuliahSTD.dir/build.make CMakeFiles/KuliahSTD.dir/tugas1.cpp.o.provides.build
-.PHONY : CMakeFiles/KuliahSTD.dir/tugas1.cpp.o.provides
+CMakeFiles/KuliahSTD.dir/main.cpp.o.provides: CMakeFiles/KuliahSTD.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/KuliahSTD.dir/build.make CMakeFiles/KuliahSTD.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/KuliahSTD.dir/main.cpp.o.provides
 
-CMakeFiles/KuliahSTD.dir/tugas1.cpp.o.provides.build: CMakeFiles/KuliahSTD.dir/tugas1.cpp.o
+CMakeFiles/KuliahSTD.dir/main.cpp.o.provides.build: CMakeFiles/KuliahSTD.dir/main.cpp.o
 
 
 # Object files for target KuliahSTD
 KuliahSTD_OBJECTS = \
-"CMakeFiles/KuliahSTD.dir/tugas1.cpp.o"
+"CMakeFiles/KuliahSTD.dir/main.cpp.o"
 
 # External object files for target KuliahSTD
 KuliahSTD_EXTERNAL_OBJECTS =
 
-KuliahSTD: CMakeFiles/KuliahSTD.dir/tugas1.cpp.o
+KuliahSTD: CMakeFiles/KuliahSTD.dir/main.cpp.o
 KuliahSTD: CMakeFiles/KuliahSTD.dir/build.make
 KuliahSTD: CMakeFiles/KuliahSTD.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/iampamungkas/CLionProjects/KuliahSTD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable KuliahSTD"
@@ -99,7 +99,7 @@ CMakeFiles/KuliahSTD.dir/build: KuliahSTD
 
 .PHONY : CMakeFiles/KuliahSTD.dir/build
 
-CMakeFiles/KuliahSTD.dir/requires: CMakeFiles/KuliahSTD.dir/tugas1.cpp.o.requires
+CMakeFiles/KuliahSTD.dir/requires: CMakeFiles/KuliahSTD.dir/main.cpp.o.requires
 
 .PHONY : CMakeFiles/KuliahSTD.dir/requires
 

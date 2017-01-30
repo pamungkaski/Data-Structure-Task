@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/KuliahSTD.dir/tugas1.cpp.o"
+  "CMakeFiles/KuliahSTD.dir/main.cpp.o"
   "KuliahSTD.pdb"
   "KuliahSTD"
 )
