@@ -85,6 +85,9 @@
 		<Unit filename="/Users/iampamungkas/CLionProjects/KuliahSTD/main.cpp">
 			<Option target="KuliahSTD"/>
 		</Unit>
+		<Unit filename="/Users/iampamungkas/CLionProjects/KuliahSTD/task1.h">
+			<Option target="KuliahSTD"/>
+		</Unit>
 		<Unit filename="/Users/iampamungkas/CLionProjects/KuliahSTD/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
