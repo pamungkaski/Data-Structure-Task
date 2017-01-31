@@ -3,12 +3,14 @@
 ### Text Editor
 * CLion IDE
 
+### Controller
+        /main.cpp <-- Main controller
+
 ###Ki Ageng Satria Pamungkas
 * Task 1, 28 January 2017 
 
-        /task1.cpp <-- Class implementer
-        /task1.h <-- Class File
-        /main.cpp <-- Main controller
+        /task1.cpp <-- Class controller
+        /task1.h <-- Class module
 
 ## How To Use
 1. Make a C++ project

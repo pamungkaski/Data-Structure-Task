@@ -12,16 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b83d60c-9bde-4089-8a02-7548a30306a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/KuliahSTD" afterPath="$PROJECT_DIR$/cmake-build-debug/KuliahSTD" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KuliahSTD.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KuliahSTD.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KuliahSTD.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KuliahSTD.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KuliahSTD.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KuliahSTD.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/KuliahSTD.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/KuliahSTD.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task1.cpp" afterPath="$PROJECT_DIR$/task1.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +74,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="135">
-                <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+                <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -363,12 +355,12 @@
       <workItem from="1485706465750" duration="4690000" />
       <workItem from="1485711395875" duration="340000" />
       <workItem from="1485745899283" duration="1859000" />
-      <workItem from="1485839479741" duration="232000" />
+      <workItem from="1485839479741" duration="273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7121000" />
+    <option name="totallyTimeSpent" value="7162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="36" width="1411" height="777" extended-state="0" />
@@ -554,7 +546,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="135">
-            <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
