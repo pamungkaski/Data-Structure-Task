@@ -8,7 +8,7 @@
         /main.cpp <-- Main controller
 
 ###Ki Ageng Satria Pamungkas
-* Task 1, 28 January 2017 
+* Task 1, January 28,2017 
 
         /task1.cpp <-- Class controller
         /task1.h <-- Class module
